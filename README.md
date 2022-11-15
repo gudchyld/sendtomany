@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# A Contract for Sending ether to multiple receipients
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This contract allows for a user to send ether to mulitple addresses with one function call
+thereby saving on gas
 
-Try running some of the following tasks:
+it utilizes the **Quicknode RPC endpoint API** for deployment
+contract address can be found at  
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+**0xC7d522b99F9E01d1C5161E889bC893960755396E**
+
